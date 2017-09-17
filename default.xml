@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch=".." />
+  <default revision="master" remote="origin" sync-s="true" sync-j="4" sync-c="true" />
+ <project path="platform/eclipse.platform.runtime"  name="eclipse.platform.runtime"/>
+ <project path="platform/eclipse.platform.swt"  name="eclipse.platform.swt"/>
+ <project path="platform/eclipse.platform.ui"  name="eclipse.platform.ui"/>
+ <project path="platform/efxclipse-rt"  name="efxclipse-rt"/>
+ <project path="platform/emf"  name="emf.git"/>
+ <project path="platform/gef"  name="gef.git"/>
+ <project path="platform/gmf-runtime"  name="gmf-runtime.git"/>
+ <project path="platform/gmp.graphiti"/>
+ <project path="platform/nebula"  name="nebula"/>
+
+  <project path="platform/equinox.binaries" name="equinox/rt.equinox.binaries.git" >
+      <!-- 
+      <linkfile src="." dest="api" />
+       -->
+  </project>
+  <project path="platform/equinox.p2" name="equinox/rt.equinox.p2.git" >
+  <project path="platform/equinox.bundles" name="equinox/rt.equinox.bundles.git" >
+  <project path="platform/equinox.framework" name="equinox/rt.equinox.framework.git" >
+
+</manifest>
+

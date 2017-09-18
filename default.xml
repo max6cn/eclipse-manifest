@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="origin" fetch="https://git.eclipse.org/r/" />
+    <remote  name="origin" fetch="git://git.eclipse.org/gitroot/" />
     <default revision="refs/tags/R4_7_1" remote="origin" sync-s="false" sync-j="4" sync-c="false" />
 
     <project  path = "platform/" name="platform/eclipse.platform.releng.aggregator.git"  groups="ide" />

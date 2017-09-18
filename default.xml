@@ -11,18 +11,18 @@
     <project  path = "platform/eclipse.jdt.ui" name = "jdt/eclipse.jdt.ui"  groups="ide" />
     <project  path = "platform/eclipse.pde.build" name = "pde/eclipse.pde.build"  groups="ide" />
     <project  path = "platform/eclipse.pde.ui" name = "pde/eclipse.pde.ui"  groups="ide" />
-    <project  path = "platform/eclipse.platform" name = "eclipse/eclipse.platform"  groups="ide" />
-    <project  path = "platform/eclipse.platform.common" name = "eclipse/eclipse.platform.common"  groups="ide" />
-    <project  path = "platform/eclipse.platform.debug" name = "eclipse/eclipse.platform.debug"  groups="ide" />
-    <project  path = "platform/eclipse.platform.releng" name = "eclipse/eclipse.platform.releng.git"  groups="ide" />
-    <project  path = "platform/eclipse.platform.resources" name = "eclipse/eclipse.platform.resources"  groups="ide" />
-    <project  path = "platform/eclipse.platform.runtime" name = "eclipse/eclipse.platform.runtime"  groups="ide" />
-    <project  path = "platform/eclipse.platform.swt" name = "eclipse/eclipse.platform.swt.git"  groups="ide" />
-    <project  path = "platform/eclipse.platform.swt.binaries" name = "eclipse/eclipse.platform.swt.binaries.git"  groups="ide" />
-    <project  path = "platform/eclipse.platform.team" name = "eclipse/eclipse.platform.team"  groups="ide" />
-    <project  path = "platform/eclipse.platform.text" name = "eclipse/eclipse.platform.text"  groups="ide" />
-    <project  path = "platform/eclipse.platform.ua" name = "eclipse/eclipse.platform.ua"  groups="ide" />
-    <project  path = "platform/eclipse.platform.ui" name = "eclipse/eclipse.platform.ui"  groups="ide" />
+    <project  path = "platform/eclipse.platform" name = "platform/eclipse.platform"  groups="ide" />
+    <project  path = "platform/eclipse.platform.common" name = "platform/eclipse.platform.common"  groups="ide" />
+    <project  path = "platform/eclipse.platform.debug" name = "platform/eclipse.platform.debug"  groups="ide" />
+    <project  path = "platform/eclipse.platform.releng" name = "platform/eclipse.platform.releng.git"  groups="ide" />
+    <project  path = "platform/eclipse.platform.resources" name = "platform/eclipse.platform.resources"  groups="ide" />
+    <project  path = "platform/eclipse.platform.runtime" name = "platform/eclipse.platform.runtime"  groups="ide" />
+    <project  path = "platform/eclipse.platform.swt" name = "platform/eclipse.platform.swt.git"  groups="ide" />
+    <project  path = "platform/eclipse.platform.swt.binaries" name = "platform/eclipse.platform.swt.binaries.git"  groups="ide" />
+    <project  path = "platform/eclipse.platform.team" name = "platform/eclipse.platform.team"  groups="ide" />
+    <project  path = "platform/eclipse.platform.text" name = "platform/eclipse.platform.text"  groups="ide" />
+    <project  path = "platform/eclipse.platform.ua" name = "platform/eclipse.platform.ua"  groups="ide" />
+    <project  path = "platform/eclipse.platform.ui" name = "platform/eclipse.platform.ui"  groups="ide" />
     <project  path = "platform/rt.equinox.binaries" name = "equinox/rt.equinox.binaries.git"  groups="ide" />
     <project  path = "platform/rt.equinox.bundles" name = "equinox/rt.equinox.bundles"  groups="ide" />
     <project  path = "platform/rt.equinox.framework" name = "equinox/rt.equinox.framework"  groups="ide" />

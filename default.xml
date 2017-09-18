@@ -27,6 +27,6 @@
     <project  path = "platform/rt.equinox.bundles" name = "equinox/rt.equinox.bundles"  groups="ide" />
     <project  path = "platform/rt.equinox.framework" name = "equinox/rt.equinox.framework"  groups="ide" />
     <project  path = "platform/rt.equinox.p2" name = "equinox/rt.equinox.p2"  groups="ide" />
-    <project  path = "platform/eclipse.platform.ui.tools" name = "eclipse/eclipse.platform.ui.tools"  groups="ide" />
+    <project  path = "platform/eclipse.platform.ui.tools" name = "platform/eclipse.platform.ui.tools"  groups="ide" />
 
 </manifest>

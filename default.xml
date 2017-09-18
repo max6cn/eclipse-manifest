@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin" fetch="https://git.eclipse.org/r/" />
-  <default revision="master" remote="origin" sync-s="true" sync-j="1" sync-c="true" />
+    <remote  name="origin" fetch="https://git.eclipse.org/r/" />
+    <default revision="refs/tags/R4_7_1" remote="origin" sync-s="false" sync-j="4" sync-c="false" />
 
-  <project path="platform/equinox.bundles" name="equinox/rt.equinox.bundles" />
-  <project path="platform/equinox.framework" name="equinox/rt.equinox.framework" />
-  <project path="platform/equinox.binaries" name="equinox/rt.equinox.binaries" />
-  <project path="platform/equinox.p2" name="equinox/rt.equinox.p2" />
-
-  <project path="platform/eclipse.platform/releng"  name="platform/eclipse.platform.releng" />
-
-  <project path="platform/eclipse.platform.runtime"  name="platform/eclipse.platform.runtime"/>
-  <project path="platform/eclipse.platform.swt"  name="platform/eclipse.platform.swt"/>
-  <project path="platform/eclipse.platform.swt.binaries"  name="platform/eclipse.platform.swt.binaries"/>
-  <project path="platform/eclipse.platform.ui"  name="platform/eclipse.platform.ui"/>
-  <!-- <project path="platform/eclipse.platform.ui.tools"  name="eclipse/eclipse.platform.ui.tools"/> -->
-
-  <project path="platform/emf"  name="platform/emf"/>
-  <project path="platform/gef"  name="platform/gef"/>
-  <project path="platform/gmf-runtime"  name="platform/gmf-runtime"/>
-  <project path="platform/gmp.graphiti" name="platform/gmp.graphiti"/>
-  <!-- <project path="platform/nebula"  name="platform/nebula"/> -->
-
-
+    <project  path = "platform/" name="platform/eclipse.platform.releng.aggregator.git"  groups="ide" />
+    <project  path = "platform/eclipse.jdt" name = "jdt/eclipse.jdt"  groups="ide" />
+    <project  path = "platform/eclipse.jdt.core" name = "jdt/eclipse.jdt.core"  groups="ide" />
+    <project  path = "platform/eclipse.jdt.core.binaries" name = "jdt/eclipse.jdt.core.binaries"  groups="ide" />
+    <project  path = "platform/eclipse.jdt.debug" name = "jdt/eclipse.jdt.debug"  groups="ide" />
+    <project  path = "platform/eclipse.jdt.ui" name = "jdt/eclipse.jdt.ui"  groups="ide" />
+    <project  path = "platform/eclipse.pde.build" name = "pde/eclipse.pde.build"  groups="ide" />
+    <project  path = "platform/eclipse.pde.ui" name = "pde/eclipse.pde.ui"  groups="ide" />
+    <project  path = "platform/eclipse.platform" name = "eclipse/eclipse.platform"  groups="ide" />
+    <project  path = "platform/eclipse.platform.common" name = "eclipse/eclipse.platform.common"  groups="ide" />
+    <project  path = "platform/eclipse.platform.debug" name = "eclipse/eclipse.platform.debug"  groups="ide" />
+    <project  path = "platform/eclipse.platform.releng" name = "eclipse/eclipse.platform.releng.git"  groups="ide" />
+    <project  path = "platform/eclipse.platform.resources" name = "eclipse/eclipse.platform.resources"  groups="ide" />
+    <project  path = "platform/eclipse.platform.runtime" name = "eclipse/eclipse.platform.runtime"  groups="ide" />
+    <project  path = "platform/eclipse.platform.swt" name = "eclipse/eclipse.platform.swt.git"  groups="ide" />
+    <project  path = "platform/eclipse.platform.swt.binaries" name = "eclipse/eclipse.platform.swt.binaries.git"  groups="ide" />
+    <project  path = "platform/eclipse.platform.team" name = "eclipse/eclipse.platform.team"  groups="ide" />
+    <project  path = "platform/eclipse.platform.text" name = "eclipse/eclipse.platform.text"  groups="ide" />
+    <project  path = "platform/eclipse.platform.ua" name = "eclipse/eclipse.platform.ua"  groups="ide" />
+    <project  path = "platform/eclipse.platform.ui" name = "eclipse/eclipse.platform.ui"  groups="ide" />
+    <project  path = "platform/rt.equinox.binaries" name = "equinox/rt.equinox.binaries.git"  groups="ide" />
+    <project  path = "platform/rt.equinox.bundles" name = "equinox/rt.equinox.bundles"  groups="ide" />
+    <project  path = "platform/rt.equinox.framework" name = "equinox/rt.equinox.framework"  groups="ide" />
+    <project  path = "platform/rt.equinox.p2" name = "equinox/rt.equinox.p2"  groups="ide" />
+    <project  path = "platform/eclipse.platform.ui.tools" name = "eclipse/eclipse.platform.ui.tools"  groups="ide" />
 
 </manifest>

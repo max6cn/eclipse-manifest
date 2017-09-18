@@ -9,7 +9,20 @@ sudo sysctl -w kern.maxfilesperproc=180000
 ulimit -S -n 180000
 ```
 
-1. Get Repo
+1. Install Repo:
+
+```
+ 
+
+# Make sure you have a bin/ directory in your home directory and that it is included in your path:
+
+mkdir ~/bin
+PATH=~/bin:$PATH
+# Download the Repo tool and ensure that it is executable:
+
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+```
 2. clone git repos from eclipse.org
 
 ```

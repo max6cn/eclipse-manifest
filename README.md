@@ -1,6 +1,13 @@
 # meteor-repo
 
 ## Build Instructions
+0. Change open file limit
+
+```
+sudo sysctl -w kern.maxfiles=409600
+sudo sysctl -w kern.maxfilesperproc=180000
+ulimit -S -n 180000
+```
 
 1. Get Repo
 2. clone git repos from eclipse.org

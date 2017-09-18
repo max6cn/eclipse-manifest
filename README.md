@@ -16,6 +16,7 @@ ulimit -S -n 180000
 mkdir name-of-project
 cd name-of-project
 repo init -u https://github.com/max6cn/meteor-repo/ -b R4_7_1 --depth=1
+repo sync -j2
 ```
 3. start build
 ```

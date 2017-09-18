@@ -16,3 +16,7 @@ ulimit -S -n 180000
 repo init -u https://github.com/max6cn/meteor-repo/ -b R4_7_1 --depth=1
 ```
 3. start build
+```
+ mvn clean verify -DskipTests=true -Dnative=cocoa.macosx.x86_64
+
+```

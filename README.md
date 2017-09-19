@@ -1,5 +1,4 @@
-# meteor-repo
-
+# Eclipse manifest
 ## Build Instructions
 0. Change open file limit
 
@@ -28,9 +27,12 @@ chmod a+x ~/bin/repo
 ```
 mkdir name-of-project
 cd name-of-project
-repo init -u https://github.com/max6cn/meteor-repo/ -b R4_7_1 --depth=1
+repo init -u https://github.com/max6cn/eclipse-manifest/ -b R4_7_1 
 repo sync -j2
 ```
+
+Notes: adding `--depth=1` will reduce download time but build will fail.
+
 3. start build
 ```
 cd platform

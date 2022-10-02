@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote  name="origin" fetch="git://git.eclipse.org/gitroot/" />
-    <default revision="master" remote="origin" sync-s="false" sync-j="4" sync-c="false" />
+    <default revision="refs/tags/R4_23_maintenance" remote="origin" sync-s="false" sync-j="4" sync-c="false" />
 
     <project  path = "platform/" name="platform/eclipse.platform.releng.aggregator.git"  groups="ide" />
     <project  path = "platform/eclipse.jdt" name = "jdt/eclipse.jdt"  groups="ide" />
